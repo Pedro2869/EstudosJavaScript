@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container > h2 {
+  background-color: #ccc;
+  padding: 10px 0;
+}
+
+.thread {
+    padding: 10px;
+    border: 1px dashed #ccc;
+}
+
+.respostas {
+    margin: 0 10px;
+}
+
+.respostas p {
+    font-size: 18px;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+}
